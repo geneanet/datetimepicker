@@ -1150,7 +1150,6 @@
 						}
 
 						datetimepicker.data('changed',true);
-						datetimepicker.trigger('xchange.xdsoft');
 						datetimepicker.trigger('changedatetime.xdsoft');
 						setTimeout(function(){
 							timerclick = 0;
